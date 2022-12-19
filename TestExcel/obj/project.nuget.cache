@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "fLoNn1ecFfes3JVKjuvAkFpX+4r84dtYDCThQ8EcE60Hh1jzEvck1iO4BG6Vu54kUJkTbjubw4DT9bjL3QQsFQ==",
+  "success": true,
+  "projectFilePath": "C:\\developer\\Sandpit\\Excel-OpenXML-Read-Write\\TestExcel\\TestExcel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\louise.newell\\.nuget\\packages\\documentformat.openxml\\2.19.0\\documentformat.openxml.2.19.0.nupkg.sha512",
+    "C:\\Users\\louise.newell\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

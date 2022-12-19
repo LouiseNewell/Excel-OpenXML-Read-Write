@@ -1,0 +1,32 @@
+﻿@page
+@using TestExcel.Models.Views;
+@model IndexModel
+
+<form method="post">
+    <button type="submit" asp-page-handler="Clear">Clear</button>
+    <button type="submit" asp-page-handler="Read">Test Read</button>
+    <button type="submit" asp-page-handler="Write">Test Write</button>
+</form>
+@if (!string.IsNullOrEmpty(Model.Mess))
+{
+    <p>@Model.Mess</p>
+}
+@if (Model.ListRows.Any())
+{
+    <ul>
+        @foreach (TestView row in Model.ListRows)
+        {
+            <li>
+                <ul>
+                    <li>@row.ABool</li>
+                    <li>@row.ADateTimeNullable</li>
+                    <li>@row.ADecimalNullable</li>
+                    <li>@row.ADouble</li>
+                    <li>@row.AnInt</li>
+                    <li>@row.ANumberAsText</li>
+                    <li>@row.AString</li>
+                </ul>
+            </li>
+        }
+    </ul>
+}
